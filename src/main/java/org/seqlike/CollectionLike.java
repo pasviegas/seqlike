@@ -1,8 +1,6 @@
 package org.seqlike;
 
-import java.util.Collection;
-
-public interface CollectionLike<T extends Collection, E> extends Iterable<E> {
+public interface CollectionLike<T, E> extends Iterable<E> {
 
   public void addAll(CollectionLike<T, E> collection);
 
