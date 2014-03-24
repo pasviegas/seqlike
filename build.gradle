@@ -2,8 +2,8 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 sourceCompatibility = 1.5
-group = "seglike"
-version = '1.0'
+group = "org.seqlike"
+version = '1.0.0'
 
 repositories {
     mavenCentral()
